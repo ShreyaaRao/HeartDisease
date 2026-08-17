@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 model = joblib.load("KNN_heart.pkl")
-scaler = joblib.load("scaler.pkl")
+scaler = joblib.load("Scaler.pkl")
 expected_columns = joblib.load("columns.pkl")
 
 
